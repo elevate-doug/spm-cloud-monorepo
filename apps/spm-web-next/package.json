@@ -1,5 +1,5 @@
 {
-  "name": "spm.nextjs.client",
+  "name": "spm-web-next",
   "version": "0.1.0",
   "private": true,
   "scripts": {
