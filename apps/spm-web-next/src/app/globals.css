@@ -1,0 +1,138 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* Modern elegant color palette */
+  --color-lightPrimary: #F7F9FC;
+  --color-blueSecondary: #4A90D9;
+  --color-brandLinear: #5BA3E6;
+
+  /* Neutral grays - clean and modern */
+  --color-gray-50: #FAFBFC;
+  --color-gray-100: #F4F6F8;
+  --color-gray-200: #E8ECEF;
+  --color-gray-300: #D1D9E0;
+  --color-gray-400: #B4BCC4;
+  --color-gray-500: #8F98A3;
+  --color-gray-600: #6B7280;
+  --color-gray-700: #4B5563;
+  --color-gray-800: #2D3748;
+  --color-gray-900: #1A202C;
+
+  /* Elegant navy/slate palette */
+  --color-navy-50: #F8FAFC;
+  --color-navy-100: #F1F5F9;
+  --color-navy-200: #E2E8F0;
+  --color-navy-300: #CBD5E1;
+  --color-navy-400: #94A3B8;
+  --color-navy-500: #64748B;
+  --color-navy-600: #475569;
+  --color-navy-700: #334155;
+  --color-navy-800: #1E293B;
+  --color-navy-900: #0F172A;
+
+  /* STERIS-inspired corporate blue palette */
+  --color-brand-50: #EBF4FB;
+  --color-brand-100: #D6E8F7;
+  --color-brand-200: #ADD1EF;
+  --color-brand-300: #7AB4E4;
+  --color-brand-400: #4A90D9;
+  --color-brand-500: #2E78C9;
+  --color-brand-600: #1E5FA8;
+  --color-brand-700: #174A85;
+  --color-brand-800: #123A6A;
+  --color-brand-900: #0D2B4F;
+
+  /* Status colors */
+  --color-red-500: #EF4444;
+  --color-red-600: #DC2626;
+  --color-green-500: #10B981;
+  --color-green-600: #059669;
+  --color-amber-500: #F59E0B;
+  --color-amber-600: #D97706;
+
+  --font-family-dm: 'DM Sans', sans-serif;
+  --font-family-poppins: 'Poppins', sans-serif;
+
+  --radius-primary: 12px;
+
+  /* Sidebar width */
+  --spacing-sidebar: 280px;
+}
+
+@layer base {
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: var(--font-family-dm);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color-gray-800);
+    background-color: var(--color-gray-50);
+  }
+}
+
+@layer utilities {
+  .linear {
+    background: linear-gradient(to bottom, var(--color-brand-400), var(--color-brand-600));
+  }
+
+  /* Barcode scan success highlight animation */
+  .scan-highlight {
+    animation: scan-pulse 0.5s ease-out;
+  }
+
+  @keyframes scan-pulse {
+    0% {
+      box-shadow: 0 0 0 0 rgba(46, 120, 201, 0.5);
+      border-color: var(--color-brand-500);
+    }
+    50% {
+      box-shadow: 0 0 0 6px rgba(46, 120, 201, 0.2);
+      border-color: var(--color-brand-500);
+    }
+    100% {
+      box-shadow: 0 0 0 0 rgba(46, 120, 201, 0);
+      border-color: var(--color-gray-200);
+    }
+  }
+
+  /* Success variant */
+  .scan-highlight-success {
+    animation: scan-pulse-success 0.5s ease-out;
+  }
+
+  @keyframes scan-pulse-success {
+    0% {
+      box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.5);
+      border-color: var(--color-green-500);
+    }
+    50% {
+      box-shadow: 0 0 0 6px rgba(16, 185, 129, 0.2);
+      border-color: var(--color-green-500);
+    }
+    100% {
+      box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+      border-color: var(--color-gray-200);
+    }
+  }
+}
+
+* {
+  letter-spacing: 0em !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}

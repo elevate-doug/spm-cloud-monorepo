@@ -1,0 +1,1 @@
+/Users/dougmbp/Projects/steris/SPMNewPOC/src/Frontend/spm.react.client/obj/Debug/spm.react.client.esproj.CoreCompileInputs.cache

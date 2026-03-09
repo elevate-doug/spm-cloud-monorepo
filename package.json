@@ -12,6 +12,6 @@
     "nx": "^22.5.4"
   },
   "pnpm": {
-    "onlyBuiltDependencies": ["nx"]
+    "onlyBuiltDependencies": ["esbuild", "msw", "nx", "sharp", "unrs-resolver"]
   }
 }
