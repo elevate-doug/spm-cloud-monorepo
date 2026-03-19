@@ -8,12 +8,13 @@
     "lint": "nx run-many -t lint",
     "test": "nx run-many -t test",
     "react": "nx dev spm-web-react",
-    "next": "nx dev spm-web-next"
+    "next": "nx dev spm-web-next",
+    "storybook": "nx dev storybook-web"
   },
   "devDependencies": {
     "nx": "^22.5.4"
   },
   "pnpm": {
-    "onlyBuiltDependencies": ["esbuild", "msw", "nx", "sharp", "unrs-resolver"]
+    "onlyBuiltDependencies": ["@tailwindcss/oxide", "esbuild", "msw", "nx", "sharp", "unrs-resolver"]
   }
 }

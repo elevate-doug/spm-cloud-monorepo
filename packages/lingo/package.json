@@ -1,0 +1,87 @@
+{
+  "private": true,
+  "name": "@steris-spm/lingo",
+  "version": "0.0.0",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "exports": {
+    ".": {
+      "types": "./index.ts",
+      "default": "./index.ts"
+    },
+    "./components": {
+      "types": "./src/components/index.ts",
+      "default": "./src/components/index.ts"
+    },
+    "./theme": {
+      "types": "./src/theme/index.ts",
+      "default": "./src/theme/index.ts"
+    },
+    "./values": {
+      "types": "./src/values/index.ts",
+      "default": "./src/values/index.ts"
+    }
+  },
+  "scripts": {
+    "dev": "tsup --watch --silent",
+    "lint": "eslint --ext ts,tsx . --fix",
+    "test": "jest --config jest.config.js --detectOpenHandles --coverage"
+  },
+  "devDependencies": {
+    "@testing-library/react-native": "^12.5.0",
+    "@tsconfig/recommended": "^1.0.6",
+    "@types/lodash": "^4.17.0",
+    "@types/react": "^18.2.0",
+    "babel-preset-expo": "~11.0.5",
+    "react": "18.2.0",
+    "react-native": "0.74.2",
+    "react-test-renderer": "18.2.0",
+    "tsup": "^6.5.0"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-web": "*"
+  },
+  "peerDependenciesMeta": {
+    "react-native": {
+      "optional": true
+    },
+    "react-native-web": {
+      "optional": true
+    }
+  },
+  "eslintConfig": {
+    "extends": [
+      "@steris-spm/eslint-config"
+    ]
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "tsup": {
+    "entry": [
+      "src/index.ts"
+    ],
+    "outDir": "build",
+    "sourcemap": true,
+    "dts": true,
+    "external": [
+      "react",
+      "react-native",
+      "react-native-web"
+    ]
+  },
+  "dependencies": {
+    "@react-native-community/datetimepicker": "^8.0.0",
+    "@react-native-community/slider": "^4.5.0",
+    "date-fns": "^4.1.0",
+    "formik": "^2.4.0",
+    "lodash": "^4.17.21",
+    "react-native-image-pan-zoom": "^2.1.12",
+    "react-native-paper": "^5.13.1",
+    "react-native-safe-area-context": "^5.4.0",
+    "react-native-svg": "^15.4.0",
+    "react-native-vector-icons": "^10.2.0"
+  }
+}

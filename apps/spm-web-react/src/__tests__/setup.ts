@@ -1,22 +1,21 @@
 import '@testing-library/jest-dom';
-import { afterAll, afterEach, beforeAll, vi } from 'vitest';
 import { server } from './mocks/server';
 
 // Mock SignalR before any imports
-vi.mock('@microsoft/signalr', () => {
+jest.mock('@microsoft/signalr', () => {
   class MockHubConnectionBuilder {
     withUrl() { return this; }
     withAutomaticReconnect() { return this; }
     configureLogging() { return this; }
     build() {
       return {
-        start: vi.fn().mockResolvedValue(undefined),
-        stop: vi.fn().mockResolvedValue(undefined),
-        on: vi.fn(),
-        off: vi.fn(),
-        onreconnecting: vi.fn(),
-        onreconnected: vi.fn(),
-        onclose: vi.fn(),
+        start: jest.fn().mockResolvedValue(undefined),
+        stop: jest.fn().mockResolvedValue(undefined),
+        on: jest.fn(),
+        off: jest.fn(),
+        onreconnecting: jest.fn(),
+        onreconnected: jest.fn(),
+        onclose: jest.fn(),
         state: 'Disconnected',
       };
     }
@@ -51,26 +50,26 @@ afterAll(() => server.close());
 
 // Mock localStorage
 const localStorageMock = {
-  getItem: vi.fn(),
-  setItem: vi.fn(),
-  removeItem: vi.fn(),
-  clear: vi.fn(),
+  getItem: jest.fn(),
+  setItem: jest.fn(),
+  removeItem: jest.fn(),
+  clear: jest.fn(),
   length: 0,
-  key: vi.fn(),
+  key: jest.fn(),
 };
 Object.defineProperty(window, 'localStorage', { value: localStorageMock });
 
 // Mock matchMedia
 Object.defineProperty(window, 'matchMedia', {
   writable: true,
-  value: vi.fn().mockImplementation((query) => ({
+  value: jest.fn().mockImplementation((query) => ({
     matches: false,
     media: query,
     onchange: null,
-    addListener: vi.fn(),
-    removeListener: vi.fn(),
-    addEventListener: vi.fn(),
-    removeEventListener: vi.fn(),
-    dispatchEvent: vi.fn(),
+    addListener: jest.fn(),
+    removeListener: jest.fn(),
+    addEventListener: jest.fn(),
+    removeEventListener: jest.fn(),
+    dispatchEvent: jest.fn(),
   })),
 });

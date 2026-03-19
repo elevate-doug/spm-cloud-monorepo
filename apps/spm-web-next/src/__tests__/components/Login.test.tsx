@@ -1,16 +1,15 @@
-import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { render, mockPush, mockRefresh } from '../test-utils';
 import LoginForm from '@/app/login/login-form';
 
 // Mock the login server action
-vi.mock('@/lib/actions/auth', () => ({
-  login: vi.fn(),
+jest.mock('@/lib/actions/auth', () => ({
+  login: jest.fn(),
 }));
 
 import { login } from '@/lib/actions/auth';
-const mockLogin = vi.mocked(login);
+const mockLogin = jest.mocked(login);
 
 // Test data - tenants are passed as props in Next.js
 const mockTenants = [
@@ -20,7 +19,7 @@ const mockTenants = [
 
 describe('Login Component', () => {
   beforeEach(() => {
-    vi.clearAllMocks();
+    jest.clearAllMocks();
   });
 
   describe('Tenant List Display', () => {

@@ -1,4 +1,3 @@
-import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import { useBarcodeScanner, BarcodeScannerOptions } from '../../hooks/useBarcodeScanner';
 
@@ -10,33 +9,33 @@ function TestBarcodeInput(props: BarcodeScannerOptions) {
 
 describe('useBarcodeScanner Hook', () => {
   beforeEach(() => {
-    vi.clearAllMocks();
-    vi.useFakeTimers();
+    jest.clearAllMocks();
+    jest.useFakeTimers();
   });
 
   afterEach(() => {
-    vi.useRealTimers();
+    jest.useRealTimers();
   });
 
   // Helper to simulate rapid keystrokes (like a barcode scanner)
   function simulateScan(input: HTMLElement, barcode: string, delayMs = 10) {
     barcode.split('').forEach((char) => {
       input.dispatchEvent(new KeyboardEvent('keydown', { key: char, bubbles: true }));
-      vi.advanceTimersByTime(delayMs);
+      jest.advanceTimersByTime(delayMs);
     });
     input.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter', bubbles: true }));
   }
 
   describe('Basic Functionality', () => {
     it('should render with inputRef attached', () => {
-      const onScan = vi.fn();
+      const onScan = jest.fn();
       render(<TestBarcodeInput onScan={onScan} />);
 
       expect(screen.getByTestId('barcode-input')).toBeInTheDocument();
     });
 
     it('should call onScan when valid barcode is entered followed by Enter', () => {
-      const onScan = vi.fn();
+      const onScan = jest.fn();
       render(<TestBarcodeInput onScan={onScan} />);
 
       const input = screen.getByTestId('barcode-input');
@@ -48,8 +47,8 @@ describe('useBarcodeScanner Hook', () => {
 
   describe('Minimum Length Validation', () => {
     it('should call onError for barcode shorter than minLength', () => {
-      const onScan = vi.fn();
-      const onError = vi.fn();
+      const onScan = jest.fn();
+      const onError = jest.fn();
       render(<TestBarcodeInput onScan={onScan} onError={onError} minLength={4} />);
 
       const input = screen.getByTestId('barcode-input');
@@ -60,7 +59,7 @@ describe('useBarcodeScanner Hook', () => {
     });
 
     it('should respect custom minLength', () => {
-      const onScan = vi.fn();
+      const onScan = jest.fn();
       render(<TestBarcodeInput onScan={onScan} minLength={8} />);
 
       const input = screen.getByTestId('barcode-input');
@@ -70,8 +69,8 @@ describe('useBarcodeScanner Hook', () => {
     });
 
     it('should reject barcode shorter than custom minLength', () => {
-      const onScan = vi.fn();
-      const onError = vi.fn();
+      const onScan = jest.fn();
+      const onError = jest.fn();
       render(<TestBarcodeInput onScan={onScan} onError={onError} minLength={8} />);
 
       const input = screen.getByTestId('barcode-input');
@@ -84,8 +83,8 @@ describe('useBarcodeScanner Hook', () => {
 
   describe('Enter Key Handling', () => {
     it('should not trigger error on empty Enter press', () => {
-      const onScan = vi.fn();
-      const onError = vi.fn();
+      const onScan = jest.fn();
+      const onError = jest.fn();
       render(<TestBarcodeInput onScan={onScan} onError={onError} />);
 
       const input = screen.getByTestId('barcode-input');
@@ -99,7 +98,7 @@ describe('useBarcodeScanner Hook', () => {
 
   describe('Special Characters', () => {
     it('should handle alphanumeric barcodes', () => {
-      const onScan = vi.fn();
+      const onScan = jest.fn();
       render(<TestBarcodeInput onScan={onScan} />);
 
       const input = screen.getByTestId('barcode-input');
@@ -109,7 +108,7 @@ describe('useBarcodeScanner Hook', () => {
     });
 
     it('should handle barcodes with dashes', () => {
-      const onScan = vi.fn();
+      const onScan = jest.fn();
       render(<TestBarcodeInput onScan={onScan} />);
 
       const input = screen.getByTestId('barcode-input');
@@ -121,7 +120,7 @@ describe('useBarcodeScanner Hook', () => {
 
   describe('Enabled/Disabled', () => {
     it('should not process input when disabled', () => {
-      const onScan = vi.fn();
+      const onScan = jest.fn();
       render(<TestBarcodeInput onScan={onScan} enabled={false} />);
 
       const input = screen.getByTestId('barcode-input');
@@ -133,7 +132,7 @@ describe('useBarcodeScanner Hook', () => {
 
   describe('Slow Typing Detection', () => {
     it('should reset buffer if typing is too slow (human typing)', () => {
-      const onScan = vi.fn();
+      const onScan = jest.fn();
       render(<TestBarcodeInput onScan={onScan} maxTimeBetweenKeys={50} />);
 
       const input = screen.getByTestId('barcode-input');
@@ -141,16 +140,16 @@ describe('useBarcodeScanner Hook', () => {
       // Type first part quickly
       'BAR'.split('').forEach((char) => {
         input.dispatchEvent(new KeyboardEvent('keydown', { key: char, bubbles: true }));
-        vi.advanceTimersByTime(10);
+        jest.advanceTimersByTime(10);
       });
 
       // Wait too long (simulate human pause)
-      vi.advanceTimersByTime(100);
+      jest.advanceTimersByTime(100);
 
       // Type second part quickly
       'CODE'.split('').forEach((char) => {
         input.dispatchEvent(new KeyboardEvent('keydown', { key: char, bubbles: true }));
-        vi.advanceTimersByTime(10);
+        jest.advanceTimersByTime(10);
       });
 
       // Press Enter - should only get 'CODE' since buffer was reset

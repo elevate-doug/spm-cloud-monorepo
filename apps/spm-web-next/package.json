@@ -7,17 +7,20 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test": "vitest",
-    "test:run": "vitest run",
-    "test:ui": "vitest --ui"
+    "test": "jest",
+    "test:run": "jest --watchAll=false"
   },
   "dependencies": {
     "jwt-decode": "^4.0.0",
     "next": "16.1.6",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "@steris-spm/lingo": "workspace:*"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-react": "^7.27.1",
+    "@babel/preset-typescript": "^7.27.1",
     "@tailwindcss/postcss": "^4",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
@@ -25,14 +28,13 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@vitejs/plugin-react": "^5.1.3",
-    "@vitest/ui": "^3.2.4",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
+    "jest": "^30.0.4",
+    "jest-environment-jsdom": "^30.0.4",
     "jsdom": "^27.0.1",
     "msw": "^2.12.9",
     "tailwindcss": "^4",
-    "typescript": "^5",
-    "vitest": "^3.2.4"
+    "typescript": "^5"
   }
 }

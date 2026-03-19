@@ -1,0 +1,1161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1770324183378" clover="3.2.0">
+  <project timestamp="1770324183378" name="All files">
+    <metrics statements="666" coveredstatements="200" conditionals="608" coveredconditionals="88" methods="215" coveredmethods="26" elements="1489" coveredelements="314" complexity="0" loc="666" ncloc="666" packages="51" files="112" classes="112"/>
+    <package name="src">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="Paragraph.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/Paragraph.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+      <file name="Strong.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/Strong.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.assets.icons">
+      <metrics statements="38" coveredstatements="18" conditionals="15" coveredconditionals="0" methods="16" coveredmethods="1"/>
+      <file name="BuildCircleIcon.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/assets/icons/BuildCircleIcon.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="CaseCartsIcon.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/assets/icons/CaseCartsIcon.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+      <file name="CaseSplitIcon.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/assets/icons/CaseSplitIcon.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="ChangeCycleIcon.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/assets/icons/ChangeCycleIcon.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="ChangeQuantityIcon.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/assets/icons/ChangeQuantityIcon.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="CrossIcon.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/assets/icons/CrossIcon.tsx">
+        <metrics statements="4" coveredstatements="1" conditionals="7" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="16" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="18" count="0" type="stmt"/>
+      </file>
+      <file name="ExclamationMarkIcon.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/assets/icons/ExclamationMarkIcon.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="MoveUpIcon.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/assets/icons/MoveUpIcon.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="QualityEventIcon.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/assets/icons/QualityEventIcon.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+      </file>
+      <file name="SVGIcon.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/assets/icons/SVGIcon.tsx">
+        <metrics statements="6" coveredstatements="2" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="57" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+      </file>
+      <file name="ScanningIcon.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/assets/icons/ScanningIcon.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+      </file>
+      <file name="SearchFieldIcon.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/assets/icons/SearchFieldIcon.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="12" type="stmt"/>
+      </file>
+      <file name="SearchIcon.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/assets/icons/SearchIcon.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="SterilizationIcon.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/assets/icons/SterilizationIcon.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+      <file name="SwapVerticalCircleIcon.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/assets/icons/SwapVerticalCircleIcon.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="TasksIcon.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/assets/icons/TasksIcon.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.buttons">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/buttons/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.buttons.AddedTasksButton">
+      <metrics statements="25" coveredstatements="2" conditionals="21" coveredconditionals="0" methods="5" coveredmethods="0"/>
+      <file name="AddedTasksButton.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/buttons/AddedTasksButton/AddedTasksButton.tsx">
+        <metrics statements="25" coveredstatements="2" conditionals="21" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="54" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="55" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="92" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/buttons/AddedTasksButton/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.buttons.BottomCtaButtons">
+      <metrics statements="2" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="BottomCtaButtons.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/buttons/BottomCtaButtons/BottomCtaButtons.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/buttons/BottomCtaButtons/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.buttons.Touchable">
+      <metrics statements="10" coveredstatements="2" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
+      <file name="Touchable.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/buttons/Touchable/Touchable.tsx">
+        <metrics statements="10" coveredstatements="2" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/buttons/Touchable/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.containers">
+      <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="SafeAreaContainer.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/containers/SafeAreaContainer.tsx">
+        <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/containers/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.containers.ScrollContext">
+      <metrics statements="24" coveredstatements="11" conditionals="2" coveredconditionals="0" methods="8" coveredmethods="2"/>
+      <file name="ScrollContext.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/containers/ScrollContext/ScrollContext.tsx">
+        <metrics statements="24" coveredstatements="11" conditionals="2" coveredconditionals="0" methods="8" coveredmethods="2"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="31" count="10" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="5" type="stmt"/>
+        <line num="35" count="5" type="stmt"/>
+        <line num="36" count="5" type="stmt"/>
+        <line num="37" count="5" type="stmt"/>
+        <line num="39" count="5" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="59" count="5" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="63" count="5" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="68" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="85" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.containers.ShadowTopWrapper">
+      <metrics statements="5" coveredstatements="5" conditionals="6" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="ShadowTopWrapper.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/containers/ShadowTopWrapper/ShadowTopWrapper.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="6" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="5" type="stmt"/>
+        <line num="13" count="5" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.data-display">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/data-display/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.data-display.List">
+      <metrics statements="6" coveredstatements="1" conditionals="3" coveredconditionals="0" methods="4" coveredmethods="0"/>
+      <file name="SimpleList.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/data-display/List/SimpleList.tsx">
+        <metrics statements="6" coveredstatements="1" conditionals="3" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/data-display/List/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.data-display.Tab">
+      <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="Tab.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/data-display/Tab/Tab.tsx">
+        <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/data-display/Tab/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.data-display.Tabs">
+      <metrics statements="36" coveredstatements="2" conditionals="20" coveredconditionals="0" methods="11" coveredmethods="0"/>
+      <file name="Tabs.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/data-display/Tabs/Tabs.tsx">
+        <metrics statements="36" coveredstatements="2" conditionals="20" coveredconditionals="0" methods="11" coveredmethods="0"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="67" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="72" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="81" count="0" type="stmt"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="88" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="90" count="0" type="stmt"/>
+        <line num="105" count="0" type="stmt"/>
+        <line num="109" count="0" type="stmt"/>
+        <line num="110" count="0" type="stmt"/>
+        <line num="114" count="0" type="stmt"/>
+        <line num="140" count="0" type="stmt"/>
+        <line num="152" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/data-display/Tabs/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.data-display.Text">
+      <metrics statements="6" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="Text.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/data-display/Text/Text.tsx">
+        <metrics statements="6" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/data-display/Text/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.debug">
+      <metrics statements="5" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="FloatingVersionText.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/debug/FloatingVersionText.tsx">
+        <metrics statements="5" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/debug/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.drawer">
+      <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="Drawer.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/drawer/Drawer.tsx">
+        <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/drawer/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.feedback">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/feedback/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.feedback.Dialog">
+      <metrics statements="68" coveredstatements="6" conditionals="54" coveredconditionals="0" methods="23" coveredmethods="0"/>
+      <file name="DialogMessage.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/feedback/Dialog/DialogMessage.tsx">
+        <metrics statements="56" coveredstatements="3" conditionals="48" coveredconditionals="0" methods="17" coveredmethods="0"/>
+        <line num="75" count="1" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="96" count="0" type="stmt"/>
+        <line num="97" count="0" type="stmt"/>
+        <line num="109" count="0" type="stmt"/>
+        <line num="113" count="0" type="stmt"/>
+        <line num="115" count="0" type="stmt"/>
+        <line num="117" count="0" type="stmt"/>
+        <line num="119" count="0" type="stmt"/>
+        <line num="122" count="0" type="stmt"/>
+        <line num="123" count="0" type="stmt"/>
+        <line num="127" count="0" type="stmt"/>
+        <line num="128" count="0" type="stmt"/>
+        <line num="139" count="0" type="stmt"/>
+        <line num="140" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="141" count="0" type="stmt"/>
+        <line num="146" count="0" type="stmt"/>
+        <line num="149" count="0" type="stmt"/>
+        <line num="155" count="0" type="stmt"/>
+        <line num="158" count="0" type="stmt"/>
+        <line num="175" count="0" type="stmt"/>
+        <line num="189" count="0" type="stmt"/>
+        <line num="190" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="191" count="0" type="stmt"/>
+        <line num="192" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="193" count="0" type="stmt"/>
+        <line num="196" count="0" type="stmt"/>
+        <line num="203" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="204" count="0" type="stmt"/>
+        <line num="210" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="211" count="0" type="stmt"/>
+        <line num="214" count="0" type="stmt"/>
+        <line num="220" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="221" count="0" type="stmt"/>
+        <line num="227" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="228" count="0" type="stmt"/>
+        <line num="234" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="235" count="0" type="stmt"/>
+        <line num="241" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="242" count="0" type="stmt"/>
+        <line num="248" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="249" count="0" type="stmt"/>
+        <line num="255" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="256" count="0" type="stmt"/>
+        <line num="262" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="263" count="0" type="stmt"/>
+        <line num="272" count="0" type="stmt"/>
+        <line num="273" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="275" count="0" type="stmt"/>
+        <line num="312" count="0" type="stmt"/>
+        <line num="316" count="0" type="stmt"/>
+        <line num="337" count="1" type="stmt"/>
+        <line num="341" count="1" type="stmt"/>
+      </file>
+      <file name="LoadingDialog.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/feedback/Dialog/LoadingDialog.tsx">
+        <metrics statements="9" coveredstatements="2" conditionals="6" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="76" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/feedback/Dialog/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="useDialog.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/feedback/Dialog/useDialog.ts">
+        <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.feedback.ErrorNotification">
+      <metrics statements="6" coveredstatements="4" conditionals="6" coveredconditionals="2" methods="1" coveredmethods="0"/>
+      <file name="ErrorNotification.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/feedback/ErrorNotification/ErrorNotification.tsx">
+        <metrics statements="6" coveredstatements="4" conditionals="6" coveredconditionals="2" methods="1" coveredmethods="0"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="23" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/feedback/ErrorNotification/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.feedback.Loading">
+      <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="Loading.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/feedback/Loading/Loading.tsx">
+        <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/feedback/Loading/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.feedback.QuarantineWarningModal">
+      <metrics statements="4" coveredstatements="2" conditionals="8" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="QuarantineWarningModal.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/feedback/QuarantineWarningModal/QuarantineWarningModal.tsx">
+        <metrics statements="4" coveredstatements="2" conditionals="8" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="35" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="93" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/feedback/QuarantineWarningModal/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.inputs">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.inputs.BigWarningModal">
+      <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="BigWarningModal.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/BigWarningModal/BigWarningModal.tsx">
+        <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="84" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/BigWarningModal/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.inputs.Button">
+      <metrics statements="3" coveredstatements="3" conditionals="34" coveredconditionals="25" methods="1" coveredmethods="1"/>
+      <file name="Button.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/Button/Button.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="34" coveredconditionals="25" methods="1" coveredmethods="1"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="47" count="3" type="stmt"/>
+        <line num="97" count="2" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/Button/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.inputs.Button.RNPaperStyled">
+      <metrics statements="3" coveredstatements="3" conditionals="16" coveredconditionals="9" methods="1" coveredmethods="1"/>
+      <file name="index.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/Button/RNPaperStyled/index.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="16" coveredconditionals="9" methods="1" coveredmethods="1"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.inputs.ButtonGroup">
+      <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="ButtonGroup.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/ButtonGroup/ButtonGroup.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/ButtonGroup/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.inputs.Checkbox">
+      <metrics statements="5" coveredstatements="2" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="Checkbox.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/Checkbox/Checkbox.tsx">
+        <metrics statements="5" coveredstatements="2" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/Checkbox/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.inputs.ConfirmDialog">
+      <metrics statements="3" coveredstatements="2" conditionals="8" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="ConfirmDialog.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/ConfirmDialog/ConfirmDialog.tsx">
+        <metrics statements="3" coveredstatements="2" conditionals="8" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="77" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/ConfirmDialog/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.inputs.DatePicker">
+      <metrics statements="10" coveredstatements="2" conditionals="19" coveredconditionals="0" methods="4" coveredmethods="0"/>
+      <file name="DatePicker.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/DatePicker/DatePicker.tsx">
+        <metrics statements="10" coveredstatements="2" conditionals="19" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="42" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="86" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.inputs.Dropdown">
+      <metrics statements="122" coveredstatements="5" conditionals="70" coveredconditionals="0" methods="32" coveredmethods="0"/>
+      <file name="Dropdown.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/Dropdown/Dropdown.tsx">
+        <metrics statements="122" coveredstatements="5" conditionals="70" coveredconditionals="0" methods="32" coveredmethods="0"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="64" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="77" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="78" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="80" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="81" count="0" type="stmt"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="90" count="0" type="stmt"/>
+        <line num="91" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="98" count="0" type="stmt"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="103" count="0" type="stmt"/>
+        <line num="105" count="0" type="stmt"/>
+        <line num="108" count="0" type="stmt"/>
+        <line num="109" count="0" type="stmt"/>
+        <line num="110" count="0" type="stmt"/>
+        <line num="115" count="0" type="stmt"/>
+        <line num="116" count="0" type="stmt"/>
+        <line num="119" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="120" count="0" type="stmt"/>
+        <line num="121" count="0" type="stmt"/>
+        <line num="122" count="0" type="stmt"/>
+        <line num="123" count="0" type="stmt"/>
+        <line num="124" count="0" type="stmt"/>
+        <line num="125" count="0" type="stmt"/>
+        <line num="126" count="0" type="stmt"/>
+        <line num="131" count="0" type="stmt"/>
+        <line num="132" count="0" type="stmt"/>
+        <line num="136" count="0" type="stmt"/>
+        <line num="137" count="0" type="stmt"/>
+        <line num="144" count="0" type="stmt"/>
+        <line num="145" count="0" type="stmt"/>
+        <line num="150" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="151" count="0" type="stmt"/>
+        <line num="156" count="0" type="stmt"/>
+        <line num="157" count="0" type="stmt"/>
+        <line num="164" count="0" type="stmt"/>
+        <line num="165" count="0" type="stmt"/>
+        <line num="166" count="0" type="stmt"/>
+        <line num="167" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="168" count="0" type="stmt"/>
+        <line num="169" count="0" type="stmt"/>
+        <line num="173" count="0" type="stmt"/>
+        <line num="174" count="0" type="stmt"/>
+        <line num="175" count="0" type="stmt"/>
+        <line num="176" count="0" type="stmt"/>
+        <line num="177" count="0" type="stmt"/>
+        <line num="180" count="0" type="stmt"/>
+        <line num="181" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="182" count="0" type="stmt"/>
+        <line num="183" count="0" type="stmt"/>
+        <line num="191" count="0" type="stmt"/>
+        <line num="192" count="0" type="stmt"/>
+        <line num="200" count="0" type="stmt"/>
+        <line num="201" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="202" count="0" type="stmt"/>
+        <line num="203" count="0" type="stmt"/>
+        <line num="210" count="0" type="stmt"/>
+        <line num="211" count="0" type="stmt"/>
+        <line num="212" count="0" type="stmt"/>
+        <line num="213" count="0" type="stmt"/>
+        <line num="214" count="0" type="stmt"/>
+        <line num="215" count="0" type="stmt"/>
+        <line num="216" count="0" type="stmt"/>
+        <line num="219" count="0" type="stmt"/>
+        <line num="220" count="0" type="stmt"/>
+        <line num="221" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="222" count="0" type="stmt"/>
+        <line num="230" count="0" type="stmt"/>
+        <line num="231" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="232" count="0" type="stmt"/>
+        <line num="234" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="235" count="0" type="stmt"/>
+        <line num="236" count="0" type="stmt"/>
+        <line num="238" count="0" type="stmt"/>
+        <line num="243" count="0" type="stmt"/>
+        <line num="248" count="0" type="stmt"/>
+        <line num="253" count="0" type="stmt"/>
+        <line num="258" count="0" type="stmt"/>
+        <line num="259" count="0" type="stmt"/>
+        <line num="262" count="0" type="stmt"/>
+        <line num="263" count="0" type="stmt"/>
+        <line num="266" count="0" type="stmt"/>
+        <line num="267" count="0" type="stmt"/>
+        <line num="268" count="0" type="stmt"/>
+        <line num="269" count="0" type="stmt"/>
+        <line num="270" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="271" count="0" type="stmt"/>
+        <line num="272" count="0" type="stmt"/>
+        <line num="273" count="0" type="stmt"/>
+        <line num="274" count="0" type="stmt"/>
+        <line num="275" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="276" count="0" type="stmt"/>
+        <line num="277" count="0" type="stmt"/>
+        <line num="278" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="279" count="0" type="stmt"/>
+        <line num="280" count="0" type="stmt"/>
+        <line num="283" count="0" type="stmt"/>
+        <line num="303" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="383" count="0" type="stmt"/>
+        <line num="388" count="0" type="stmt"/>
+        <line num="394" count="0" type="stmt"/>
+        <line num="400" count="0" type="stmt"/>
+        <line num="424" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/Dropdown/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.inputs.FloatingActionButton">
+      <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="FloatingActionButton.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/FloatingActionButton/FloatingActionButton.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.inputs.IconButton">
+      <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <file name="IconButton.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/IconButton/IconButton.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="41" count="3" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/IconButton/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.inputs.QuantityField">
+      <metrics statements="27" coveredstatements="2" conditionals="35" coveredconditionals="0" methods="12" coveredmethods="0"/>
+      <file name="QuantityField.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/QuantityField/QuantityField.tsx">
+        <metrics statements="27" coveredstatements="2" conditionals="35" coveredconditionals="0" methods="12" coveredmethods="0"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="49" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="105" count="0" type="stmt"/>
+        <line num="106" count="0" type="stmt"/>
+        <line num="144" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/QuantityField/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.inputs.RadioGroup">
+      <metrics statements="6" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="2"/>
+      <file name="RadioGroup.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/RadioGroup/RadioGroup.tsx">
+        <metrics statements="6" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="2"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/RadioGroup/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.inputs.Rating">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="Rating.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/Rating/Rating.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/Rating/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.inputs.SearchField">
+      <metrics statements="20" coveredstatements="15" conditionals="28" coveredconditionals="9" methods="8" coveredmethods="3"/>
+      <file name="SearchField.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/SearchField/SearchField.tsx">
+        <metrics statements="20" coveredstatements="15" conditionals="28" coveredconditionals="9" methods="8" coveredmethods="3"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="35" count="12" type="stmt"/>
+        <line num="37" count="12" type="stmt"/>
+        <line num="38" count="12" type="stmt"/>
+        <line num="41" count="12" type="cond" truecount="1" falsecount="3"/>
+        <line num="42" count="12" type="cond" truecount="1" falsecount="1"/>
+        <line num="46" count="12" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="52" count="12" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="54" count="2" type="stmt"/>
+        <line num="57" count="12" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="87" count="0" type="stmt"/>
+        <line num="103" count="0" type="stmt"/>
+        <line num="125" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/SearchField/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.inputs.Select">
+      <metrics statements="25" coveredstatements="2" conditionals="35" coveredconditionals="0" methods="10" coveredmethods="0"/>
+      <file name="Select.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/Select/Select.tsx">
+        <metrics statements="25" coveredstatements="2" conditionals="35" coveredconditionals="0" methods="10" coveredmethods="0"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="81" count="0" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="86" count="0" type="stmt"/>
+        <line num="87" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="90" count="0" type="stmt"/>
+        <line num="150" count="0" type="stmt"/>
+        <line num="152" count="0" type="stmt"/>
+        <line num="172" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/Select/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.inputs.Slider">
+      <metrics statements="4" coveredstatements="4" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="1"/>
+      <file name="Slider.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/Slider/Slider.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="1"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/Slider/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.inputs.Switch">
+      <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="Switch.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/Switch/Switch.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/Switch/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.inputs.TextField">
+      <metrics statements="19" coveredstatements="3" conditionals="52" coveredconditionals="0" methods="6" coveredmethods="0"/>
+      <file name="TextField.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/TextField/TextField.tsx">
+        <metrics statements="19" coveredstatements="3" conditionals="52" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="84" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="87" count="0" type="stmt"/>
+        <line num="88" count="0" type="stmt"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="98" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="100" count="0" type="stmt"/>
+        <line num="115" count="0" type="stmt"/>
+        <line num="249" count="1" type="stmt"/>
+        <line num="251" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/TextField/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.inputs.TimePicker">
+      <metrics statements="10" coveredstatements="2" conditionals="19" coveredconditionals="0" methods="4" coveredmethods="0"/>
+      <file name="TimePicker.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/TimePicker/TimePicker.tsx">
+        <metrics statements="10" coveredstatements="2" conditionals="19" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="41" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="85" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/TimePicker/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.inputs.WarningAlert">
+      <metrics statements="18" coveredstatements="10" conditionals="18" coveredconditionals="5" methods="6" coveredmethods="3"/>
+      <file name="WarningAlert.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/WarningAlert/WarningAlert.tsx">
+        <metrics statements="9" coveredstatements="8" conditionals="9" coveredconditionals="5" methods="3" coveredmethods="3"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="28" count="1" type="cond" truecount="2" falsecount="2"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="37" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="66" count="1" type="stmt"/>
+      </file>
+      <file name="WarningAltert.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/WarningAlert/WarningAltert.tsx">
+        <metrics statements="9" coveredstatements="2" conditionals="9" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="28" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="37" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="63" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/inputs/WarningAlert/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.menu">
+      <metrics statements="64" coveredstatements="12" conditionals="62" coveredconditionals="0" methods="19" coveredmethods="0"/>
+      <file name="DialogMenu.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/menu/DialogMenu.tsx">
+        <metrics statements="20" coveredstatements="2" conditionals="19" coveredconditionals="0" methods="7" coveredmethods="0"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="105" count="0" type="stmt"/>
+        <line num="106" count="0" type="stmt"/>
+        <line num="120" count="1" type="stmt"/>
+      </file>
+      <file name="Menu.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/menu/Menu.tsx">
+        <metrics statements="8" coveredstatements="3" conditionals="5" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="37" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="40" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="71" count="1" type="stmt"/>
+      </file>
+      <file name="MenuItem.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/menu/MenuItem.tsx">
+        <metrics statements="22" coveredstatements="5" conditionals="27" coveredconditionals="0" methods="7" coveredmethods="0"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="89" count="1" type="stmt"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="100" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="103" count="0" type="stmt"/>
+        <line num="106" count="0" type="stmt"/>
+        <line num="107" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="108" count="0" type="stmt"/>
+        <line num="110" count="0" type="stmt"/>
+        <line num="113" count="0" type="stmt"/>
+        <line num="114" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="115" count="0" type="stmt"/>
+        <line num="116" count="0" type="stmt"/>
+        <line num="119" count="0" type="stmt"/>
+        <line num="149" count="0" type="stmt"/>
+        <line num="161" count="1" type="stmt"/>
+      </file>
+      <file name="MenuSubitem.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/menu/MenuSubitem.tsx">
+        <metrics statements="14" coveredstatements="2" conditionals="11" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="52" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="53" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="88" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/menu/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.surfaces">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/surfaces/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.surfaces.AppBar">
+      <metrics statements="13" coveredstatements="4" conditionals="11" coveredconditionals="1" methods="2" coveredmethods="0"/>
+      <file name="index.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/surfaces/AppBar/index.tsx">
+        <metrics statements="13" coveredstatements="4" conditionals="11" coveredconditionals="1" methods="2" coveredmethods="0"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="41" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="79" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.typography">
+      <metrics statements="12" coveredstatements="9" conditionals="22" coveredconditionals="14" methods="1" coveredmethods="1"/>
+      <file name="Typography.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/typography/Typography.tsx">
+        <metrics statements="12" coveredstatements="9" conditionals="22" coveredconditionals="14" methods="1" coveredmethods="1"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="139" count="3" type="stmt"/>
+        <line num="148" count="27" type="stmt"/>
+        <line num="151" count="27" type="cond" truecount="4" falsecount="1"/>
+        <line num="152" count="0" type="stmt"/>
+        <line num="155" count="27" type="stmt"/>
+        <line num="156" count="27" type="cond" truecount="2" falsecount="2"/>
+        <line num="157" count="0" type="stmt"/>
+        <line num="160" count="27" type="cond" truecount="1" falsecount="1"/>
+        <line num="161" count="0" type="stmt"/>
+        <line num="164" count="27" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/components/typography/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.templates.Scanning">
+      <metrics statements="14" coveredstatements="11" conditionals="18" coveredconditionals="12" methods="10" coveredmethods="4"/>
+      <file name="ScanningTemplate.tsx" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/templates/Scanning/ScanningTemplate.tsx">
+        <metrics statements="14" coveredstatements="11" conditionals="18" coveredconditionals="12" methods="10" coveredmethods="4"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="52" count="5" type="stmt"/>
+        <line num="54" count="5" type="stmt"/>
+        <line num="55" count="5" type="stmt"/>
+        <line num="57" count="5" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="76" count="5" type="stmt"/>
+        <line num="77" count="4" type="stmt"/>
+        <line num="87" count="5" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="100" count="0" type="stmt"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="106" count="5" type="stmt"/>
+        <line num="142" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.theme">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="Colors.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/theme/Colors.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="2" count="10" type="stmt"/>
+      </file>
+      <file name="LingoTheme.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/theme/LingoTheme.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="6" count="8" type="stmt"/>
+      </file>
+      <file name="MaterialThemes.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/theme/MaterialThemes.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="14" count="8" type="stmt"/>
+      </file>
+      <file name="fontDefinitions.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/theme/fontDefinitions.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="8" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/theme/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.utils">
+      <metrics statements="4" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="0" coveredmethods="0"/>
+      <file name="LinearGradient.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/utils/LinearGradient.ts">
+        <metrics statements="4" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="0" coveredmethods="0"/>
+        <line num="7" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.values">
+      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="Enums.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/values/Enums.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="Spacing.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/values/Spacing.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="25" count="4" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/dougmbp/Projects/steris/spm-react-native/modules/lingo/src/values/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+  </project>
+</coverage>

@@ -1,14 +1,13 @@
-import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { render, mockPush } from '../test-utils';
 import AssemblyClient from '@/app/assembly/assembly-client';
 
 // Mock the server actions
-vi.mock('@/lib/actions/builds', () => ({
-  getLatestBuildForBarcode: vi.fn(),
-  getInstrumentSetByBarcode: vi.fn(),
-  startNewBuild: vi.fn(),
+jest.mock('@/lib/actions/builds', () => ({
+  getLatestBuildForBarcode: jest.fn(),
+  getInstrumentSetByBarcode: jest.fn(),
+  startNewBuild: jest.fn(),
 }));
 
 import {
@@ -17,9 +16,9 @@ import {
   startNewBuild,
 } from '@/lib/actions/builds';
 
-const mockGetLatestBuildForBarcode = vi.mocked(getLatestBuildForBarcode);
-const mockGetInstrumentSetByBarcode = vi.mocked(getInstrumentSetByBarcode);
-const mockStartNewBuild = vi.mocked(startNewBuild);
+const mockGetLatestBuildForBarcode = jest.mocked(getLatestBuildForBarcode);
+const mockGetInstrumentSetByBarcode = jest.mocked(getInstrumentSetByBarcode);
+const mockStartNewBuild = jest.mocked(startNewBuild);
 
 // Test data
 const mockIncompleteBuilds = [
@@ -52,7 +51,7 @@ const mockCompletedBuilds = [
 
 describe('Assembly Component', () => {
   beforeEach(() => {
-    vi.clearAllMocks();
+    jest.clearAllMocks();
   });
 
   describe('Builds List Display', () => {

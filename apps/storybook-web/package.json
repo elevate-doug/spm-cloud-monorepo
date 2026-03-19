@@ -1,0 +1,32 @@
+{
+  "name": "storybook-web",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build"
+  },
+  "dependencies": {
+    "@steris-spm/lingo": "workspace:*",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-native-web": "^0.19.13",
+    "react-native-paper": "^5.13.1",
+    "react-native-vector-icons": "^10.2.0",
+    "react-native-safe-area-context": "^5.4.0"
+  },
+  "devDependencies": {
+    "@babel/preset-flow": "^7.27.1",
+    "@babel/preset-react": "^7.27.1",
+    "@babel/preset-typescript": "^7.27.1",
+    "@storybook/react": "^8.6.14",
+    "@storybook/react-webpack5": "^8.6.14",
+    "@storybook/addon-essentials": "^8.6.14",
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "babel-loader": "^9.2.1",
+    "@storybook/test": "^8.6.14",
+    "storybook": "^8.6.14",
+    "typescript": "~5.9.3"
+  }
+}

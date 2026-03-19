@@ -1,0 +1,163 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for src/assets/icons/CaseCartsIcon.tsx</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../../../index.html">All files</a> / <a href="index.html">src/assets/icons</a> CaseCartsIcon.tsx</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">50% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>1/2</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>0/0</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">0% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>0/1</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">50% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>1/2</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+        <template id="filterTemplate">
+            <div class="quiet">
+                Filter:
+                <input type="search" id="fileSearch">
+            </div>
+        </template>
+    </div>
+    <div class='status-line medium'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a>
+<a name='L25'></a><a href='#L25'>25</a>
+<a name='L26'></a><a href='#L26'>26</a>
+<a name='L27'></a><a href='#L27'>27</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import * as React from 'react'
+import Svg, { G, Path, SvgProps } from 'react-native-svg'
+/* SVGR has dropped some elements not supported by react-native-svg: title */
+const CaseCartsIcon = <span class="fstat-no" title="function not covered" >(p</span>rops: SvgProps) =&gt; (
+<span class="cstat-no" title="statement not covered" >  &lt;Svg viewBox="0 0 200 200" width={45} height={45} {...props}&gt;</span>
+    &lt;G fill="none" fillRule="evenodd"&gt;
+      &lt;Path
+        fill="#A2B0C7"
+        d="M182.1 200H17.9C8 200 0 192 0 182.1V17.9C0 8 8 0 17.9 0h164.3C192 0 200 8 200 17.9v164.3c0 9.8-8 17.8-17.9 17.8Zm-8-192H25.9C16 8 8 16 8 25.9v148.3C8 184 16 192 25.9 192h148.3c9.9 0 17.9-8 17.9-17.9V25.9C192 16 184 8 174.1 8Z"
+      /&gt;
+      &lt;Path
+        fill="#A2B0C7"
+        d="M173.8 187.4H26.2c-7.5 0-13.6-6.1-13.6-13.6V26.2c0-7.5 6.1-13.6 13.6-13.6h147.6c7.5 0 13.6 6.1 13.6 13.6v147.6c0 7.5-6.1 13.6-13.6 13.6Z"
+      /&gt;
+      &lt;G fill="#002D5C"&gt;
+        &lt;Path d="m172.9 35-22.3 7.3c-.3-1.6-1.8-2.9-3.6-2.9H52.2c-1.5 0-2.7.9-3.3 2.1l-20-6.6c-.6-.2-1.3.3-1.3.9v119.9c0 .7.7 1.2 1.3 1l20.1-6.6c.6 1.2 1.8 2.1 3.3 2.1h10.6v1.7c-1.6.8-2.7 2.4-2.7 4.3 0 2.7 2.2 4.9 4.9 4.9s4.9-2.2 4.9-4.9c0-1.9-1.1-3.5-2.7-4.3v-1.7h65.5v1.7c-1.6.8-2.7 2.4-2.7 4.3 0 2.7 2.2 4.9 4.9 4.9s4.9-2.2 4.9-4.9c0-1.9-1.1-3.5-2.7-4.3v-1.7h9.8c1.7 0 3.1-1.2 3.5-2.8l22.3 7.3c.6.2 1.3-.3 1.3-1V36c.1-.7-.5-1.2-1.2-1ZM60.8 46.8h77.6c3.1 0 5.7 2.5 5.7 5.7v12.4h-89V52.5c0-3.2 2.6-5.7 5.7-5.7Zm-5.7 53.6V68.3h89v32.1h-89Zm89 3.4V131h-89v-27.1h89v-.1Zm-5.7 41.2H60.8c-3.1 0-5.7-2.5-5.7-5.7v-5h89v5c0 3.2-2.5 5.7-5.7 5.7Z" /&gt;
+        &lt;Path d="M64.6 84.4H74v-3H61.9c-.4 0-.8.4-.8.8v2.9c0 .4.4.8.8.8 0 0 2.1.4 2.7-1.5ZM95.6 81.4h-12v3h8.9c.9 1.8 3.1 1.5 3.1 1.5.4 0 .8-.4.8-.8v-2.9c0-.5-.3-.8-.8-.8ZM82.9 81.4h-8.1v3h8.1v-3Zm-6.8 2c-.3 0-.5-.2-.5-.5s.2-.5.5-.5.5.2.5.5-.2.5-.5.5Zm1.8 0c-.3 0-.5-.2-.5-.5s.2-.5.5-.5.5.2.5.5-.2.5-.5.5Zm1.8 0c-.3 0-.5-.2-.5-.5s.2-.5.5-.5.5.2.5.5-.3.5-.5.5Zm1.7 0c-.3 0-.5-.2-.5-.5s.2-.5.5-.5.5.2.5.5-.2.5-.5.5Z" /&gt;
+        &lt;Path d="M92.1 85.2H65.2c-.5 1-1.5 1.5-2.7 1.5h-.2v11.2c0 1.1.9 2 2 2H93c1.1 0 2-.9 2-2V86.7c-1.2-.1-2.3-.6-2.9-1.5Zm-11.5 2.4h9.6v3.6h-9.6v-3.6Zm12.2 5.9c0 1-.8 1.8-1.8 1.8h-3.9c-.6 0-1.1-.5-1.6-1-.4-.4-1-.9-1.3-.9H72.8c-.2 0-.7.5-.9.8-.5.5-1 1.1-1.6 1.1h-4c-1 0-1.8-.8-1.8-1.8V88c0-1 .8-1.8 1.8-1.8v1.1c-.4 0-.7.3-.7.7v5.5c0 .4.3.7.7.7h4c.1 0 .5-.5.7-.7.5-.6 1.1-1.2 1.7-1.2h11.4c.8 0 1.5.6 2.1 1.2.3.2.7.7.9.7H91c.4 0 .7-.3.7-.7V88c0-.4-.3-.7-.7-.7v-1.1c1 0 1.8.8 1.8 1.8v5.5Z" /&gt;
+        &lt;Path d="M81.2 88h.4v2.7h-.4zM81.7 88h.4v2.7h-.4zM82.6 88h.4v2.7h-.4zM83.2 88h.4v2.7h-.4zM84.1 88h.4v2.7h-.4zM84.7 88h.4v2.7h-.4zM85.6 88h.4v2.7h-.4zM86.3 88h.4v2.7h-.4zM86.9 88h.4v2.7h-.4zM87.5 88h.4v2.7h-.4zM88.7 88h.4v2.7h-.4zM89.3 88h.4v2.7h-.4zM107.4 84.4h9.4v-3h-12.1c-.4 0-.8.4-.8.8v2.9c0 .4.4.8.8.8 0 0 2.1.4 2.7-1.5ZM138.4 81.4h-12v3h8.9c.9 1.8 3.1 1.5 3.1 1.5.4 0 .8-.4.8-.8v-2.9c0-.5-.3-.8-.8-.8ZM125.7 81.4h-8.1v3h8.1v-3Zm-6.8 2c-.3 0-.5-.2-.5-.5s.2-.5.5-.5.5.2.5.5-.2.5-.5.5Zm1.8 0c-.3 0-.5-.2-.5-.5s.2-.5.5-.5.5.2.5.5-.2.5-.5.5Zm1.7 0c-.3 0-.5-.2-.5-.5s.2-.5.5-.5.5.2.5.5-.2.5-.5.5Zm1.8 0c-.3 0-.5-.2-.5-.5s.2-.5.5-.5.5.2.5.5-.2.5-.5.5Z" /&gt;
+        &lt;Path d="M134.9 85.2H108c-.5 1-1.5 1.5-2.7 1.5h-.2v11.2c0 1.1.9 2 2 2h28.7c1.1 0 2-.9 2-2V86.7c-1.2-.1-2.3-.6-2.9-1.5Zm-11.5 2.4h9.6v3.6h-9.6v-3.6Zm12.2 5.9c0 1-.8 1.8-1.8 1.8h-3.9c-.6 0-1.1-.5-1.6-1-.4-.4-1-.9-1.3-.9h-11.4c-.2 0-.7.5-.9.8-.5.5-1 1.1-1.6 1.1h-4c-1 0-1.8-.8-1.8-1.8V88c0-1 .8-1.8 1.8-1.8v1.1c-.4 0-.7.3-.7.7v5.5c0 .4.3.7.7.7h4c.1 0 .5-.5.7-.7.5-.6 1.1-1.2 1.7-1.2h11.4c.8 0 1.5.6 2.1 1.2.3.2.7.7.9.7h3.9c.4 0 .7-.3.7-.7V88c0-.4-.3-.7-.7-.7v-1.1c1 0 1.8.8 1.8 1.8v5.5Z" /&gt;
+        &lt;Path d="M124 88h.4v2.7h-.4zM124.5 88h.4v2.7h-.4zM125.4 88h.4v2.7h-.4zM126 88h.4v2.7h-.4zM126.9 88h.4v2.7h-.4zM127.5 88h.4v2.7h-.4zM128.4 88h.4v2.7h-.4zM129 88h.4v2.7h-.4zM129.7 88h.4v2.7h-.4zM130.3 88h.4v2.7h-.4zM131.5 88h.4v2.7h-.4zM132.1 88h.4v2.7h-.4z" /&gt;
+      &lt;/G&gt;
+    &lt;/G&gt;
+  &lt;/Svg&gt;
+)
+export default CaseCartsIcon
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
+                at 2026-02-05T20:43:03.310Z
+            </div>
+        <script src="../../../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../../../sorter.js"></script>
+        <script src="../../../block-navigation.js"></script>
+    </body>
+</html>
+    

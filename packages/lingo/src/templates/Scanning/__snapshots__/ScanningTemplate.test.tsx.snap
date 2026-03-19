@@ -1,0 +1,1360 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScanningTemplate renders correctly with default props 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    collapsable={false}
+    pointerEvents="box-none"
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "backgroundColor": "#FFFFFF",
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "backgroundColor": "#FFFFFF",
+            "marginHorizontal": -32,
+            "zIndex": 1,
+          }
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "backgroundColor": "#FFFFFF",
+                "paddingHorizontal": 32,
+              },
+              false,
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "gap": 16,
+                "padding": 16,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    undefined,
+                    {
+                      "color": "#3973AC",
+                      "fontFamily": "Inter-Regular",
+                      "fontSize": 20,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.15,
+                      "lineHeight": 32,
+                    },
+                    {
+                      "color": "rgba(0, 0, 0, 0.87)",
+                      "fontFamily": "Inter-Regular",
+                      "fontStyle": "normal",
+                      "fontWeight": "500",
+                    },
+                  ]
+                }
+              >
+                Scan or search
+              </Text>
+              <Text
+                style={
+                  [
+                    undefined,
+                    {
+                      "color": "#3973AC",
+                      "fontFamily": "Inter-Regular",
+                      "fontSize": 16,
+                      "fontWeight": "400",
+                      "letterSpacing": 0.15,
+                      "lineHeight": 24,
+                    },
+                    {
+                      "color": "rgba(0, 0, 0, 0.6)",
+                      "fontFamily": "Inter-Regular",
+                      "fontStyle": "normal",
+                      "fontWeight": "400",
+                    },
+                  ]
+                }
+              >
+                User: 
+                Test User
+              </Text>
+            </View>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "alignItems": "center",
+                        "backgroundColor": "#FFFFFF",
+                        "borderColor": "#E0E0E0",
+                        "borderRadius": 4,
+                        "borderWidth": 1,
+                        "flex": 1,
+                        "flexDirection": "row",
+                        "height": 56,
+                        "paddingHorizontal": 12,
+                      },
+                      false,
+                    ]
+                  }
+                >
+                  <RNSVGSvgView
+                    align="xMidYMid"
+                    bbHeight={24}
+                    bbWidth={24}
+                    fill="none"
+                    focusable={false}
+                    height={24}
+                    meetOrSlice={0}
+                    minX={0}
+                    minY={0}
+                    style={
+                      [
+                        {
+                          "backgroundColor": "transparent",
+                          "borderWidth": 0,
+                        },
+                        {
+                          "flex": 0,
+                          "height": 24,
+                          "width": 24,
+                        },
+                      ]
+                    }
+                    vbHeight={24}
+                    vbWidth={24}
+                    width={24}
+                  >
+                    <RNSVGGroup
+                      fill={null}
+                      propList={
+                        [
+                          "fill",
+                        ]
+                      }
+                    >
+                      <RNSVGPath
+                        d="M15.7559 14.2549H14.9659L14.6859 13.9849C15.6659 12.8449 16.2559 11.3649 16.2559 9.75488C16.2559 6.16488 13.3459 3.25488 9.75586 3.25488C6.16586 3.25488 3.25586 6.16488 3.25586 9.75488C3.25586 13.3449 6.16586 16.2549 9.75586 16.2549C11.3659 16.2549 12.8459 15.6649 13.9859 14.6849L14.2559 14.9649V15.7549L19.2559 20.7449L20.7459 19.2549L15.7559 14.2549ZM9.75586 14.2549C7.26586 14.2549 5.25586 12.2449 5.25586 9.75488C5.25586 7.26488 7.26586 5.25488 9.75586 5.25488C12.2459 5.25488 14.2559 7.26488 14.2559 9.75488C14.2559 12.2449 12.2459 14.2549 9.75586 14.2549Z"
+                        fill={
+                          {
+                            "payload": 4285887861,
+                            "type": 0,
+                          }
+                        }
+                        propList={
+                          [
+                            "fill",
+                          ]
+                        }
+                      />
+                    </RNSVGGroup>
+                  </RNSVGSvgView>
+                  <TextInput
+                    autoFocus={false}
+                    onBlur={[Function]}
+                    onChangeText={[Function]}
+                    onFocus={[Function]}
+                    onSubmitEditing={[Function]}
+                    placeholder="Enter process point"
+                    placeholderTextColor="#9E9E9E"
+                    returnKeyType="search"
+                    style={
+                      {
+                        "flex": 1,
+                        "fontSize": 16,
+                        "lineHeight": 24,
+                        "marginLeft": 8,
+                      }
+                    }
+                    value=""
+                  />
+                </View>
+              </View>
+            </View>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "alignItems": "center",
+                        "backgroundColor": "#FFFFFF",
+                        "borderColor": "#E0E0E0",
+                        "borderRadius": 4,
+                        "borderWidth": 1,
+                        "flex": 1,
+                        "flexDirection": "row",
+                        "height": 56,
+                        "paddingHorizontal": 12,
+                      },
+                      false,
+                    ]
+                  }
+                >
+                  <RNSVGSvgView
+                    align="xMidYMid"
+                    bbHeight={24}
+                    bbWidth={24}
+                    fill="none"
+                    focusable={false}
+                    height={24}
+                    meetOrSlice={0}
+                    minX={0}
+                    minY={0}
+                    style={
+                      [
+                        {
+                          "backgroundColor": "transparent",
+                          "borderWidth": 0,
+                        },
+                        {
+                          "flex": 0,
+                          "height": 24,
+                          "width": 24,
+                        },
+                      ]
+                    }
+                    vbHeight={24}
+                    vbWidth={24}
+                    width={24}
+                  >
+                    <RNSVGGroup
+                      fill={null}
+                      propList={
+                        [
+                          "fill",
+                        ]
+                      }
+                    >
+                      <RNSVGPath
+                        d="M15.7559 14.2549H14.9659L14.6859 13.9849C15.6659 12.8449 16.2559 11.3649 16.2559 9.75488C16.2559 6.16488 13.3459 3.25488 9.75586 3.25488C6.16586 3.25488 3.25586 6.16488 3.25586 9.75488C3.25586 13.3449 6.16586 16.2549 9.75586 16.2549C11.3659 16.2549 12.8459 15.6649 13.9859 14.6849L14.2559 14.9649V15.7549L19.2559 20.7449L20.7459 19.2549L15.7559 14.2549ZM9.75586 14.2549C7.26586 14.2549 5.25586 12.2449 5.25586 9.75488C5.25586 7.26488 7.26586 5.25488 9.75586 5.25488C12.2459 5.25488 14.2559 7.26488 14.2559 9.75488C14.2559 12.2449 12.2459 14.2549 9.75586 14.2549Z"
+                        fill={
+                          {
+                            "payload": 4285887861,
+                            "type": 0,
+                          }
+                        }
+                        propList={
+                          [
+                            "fill",
+                          ]
+                        }
+                      />
+                    </RNSVGGroup>
+                  </RNSVGSvgView>
+                  <TextInput
+                    autoFocus={false}
+                    onBlur={[Function]}
+                    onChangeText={[Function]}
+                    onFocus={[Function]}
+                    onSubmitEditing={[Function]}
+                    placeholder="Enter product"
+                    placeholderTextColor="#9E9E9E"
+                    returnKeyType="search"
+                    style={
+                      {
+                        "flex": 1,
+                        "fontSize": 16,
+                        "lineHeight": 24,
+                        "marginLeft": 8,
+                      }
+                    }
+                    value=""
+                  />
+                </View>
+              </View>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "marginTop": 16,
+                  },
+                  {
+                    "color": "#3973AC",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 16,
+                    "fontWeight": "500",
+                    "letterSpacing": 0.15,
+                    "lineHeight": 24,
+                  },
+                  {
+                    "color": "rgba(0, 0, 0, 0.87)",
+                    "fontFamily": "Inter-Regular",
+                    "fontStyle": "normal",
+                    "fontWeight": "500",
+                  },
+                ]
+              }
+            >
+              Recent scans
+            </Text>
+          </View>
+        </View>
+      </View>
+      <RCTScrollView
+        ItemSeparatorComponent={[Function]}
+        ListEmptyComponent={[Function]}
+        contentContainerStyle={
+          {
+            "flexGrow": 1,
+            "paddingBottom": 32,
+            "paddingHorizontal": 16,
+          }
+        }
+        getItem={[Function]}
+        getItemCount={[Function]}
+        keyExtractor={[Function]}
+        keyboardShouldPersistTaps="always"
+        onContentSizeChange={[Function]}
+        onLayout={[Function]}
+        onMomentumScrollBegin={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScroll={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        removeClippedSubviews={false}
+        renderItem={[Function]}
+        scrollEventThrottle={16}
+        stickyHeaderIndices={[]}
+        viewabilityConfigCallbackPairs={[]}
+      >
+        <View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "padding": 16,
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  undefined,
+                  {
+                    "color": "#3973AC",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "letterSpacing": 0.15,
+                    "lineHeight": 24,
+                  },
+                  {
+                    "color": "#9E9E9E",
+                    "fontFamily": "Inter-Regular",
+                    "fontStyle": "normal",
+                    "fontWeight": "400",
+                  },
+                ]
+              }
+            >
+              No recent scans
+            </Text>
+          </View>
+          <View
+            style={
+              [
+                {
+                  "backgroundColor": "rgba(0, 0, 0, 0.12)",
+                  "height": 0.5,
+                },
+                undefined,
+                false,
+                false,
+                {
+                  "backgroundColor": "#E0E0E0",
+                },
+              ]
+            }
+          />
+        </View>
+      </RCTScrollView>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;
+
+exports[`ScanningTemplate renders correctly with recent scans 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    collapsable={false}
+    pointerEvents="box-none"
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "backgroundColor": "#FFFFFF",
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "backgroundColor": "#FFFFFF",
+            "marginHorizontal": -32,
+            "zIndex": 1,
+          }
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "backgroundColor": "#FFFFFF",
+                "paddingHorizontal": 32,
+              },
+              false,
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "gap": 16,
+                "padding": 16,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    undefined,
+                    {
+                      "color": "#3973AC",
+                      "fontFamily": "Inter-Regular",
+                      "fontSize": 20,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.15,
+                      "lineHeight": 32,
+                    },
+                    {
+                      "color": "rgba(0, 0, 0, 0.87)",
+                      "fontFamily": "Inter-Regular",
+                      "fontStyle": "normal",
+                      "fontWeight": "500",
+                    },
+                  ]
+                }
+              >
+                Scan or search
+              </Text>
+              <Text
+                style={
+                  [
+                    undefined,
+                    {
+                      "color": "#3973AC",
+                      "fontFamily": "Inter-Regular",
+                      "fontSize": 16,
+                      "fontWeight": "400",
+                      "letterSpacing": 0.15,
+                      "lineHeight": 24,
+                    },
+                    {
+                      "color": "rgba(0, 0, 0, 0.6)",
+                      "fontFamily": "Inter-Regular",
+                      "fontStyle": "normal",
+                      "fontWeight": "400",
+                    },
+                  ]
+                }
+              >
+                User: 
+                Test User
+              </Text>
+            </View>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "alignItems": "center",
+                        "backgroundColor": "#FFFFFF",
+                        "borderColor": "#E0E0E0",
+                        "borderRadius": 4,
+                        "borderWidth": 1,
+                        "flex": 1,
+                        "flexDirection": "row",
+                        "height": 56,
+                        "paddingHorizontal": 12,
+                      },
+                      false,
+                    ]
+                  }
+                >
+                  <RNSVGSvgView
+                    align="xMidYMid"
+                    bbHeight={24}
+                    bbWidth={24}
+                    fill="none"
+                    focusable={false}
+                    height={24}
+                    meetOrSlice={0}
+                    minX={0}
+                    minY={0}
+                    style={
+                      [
+                        {
+                          "backgroundColor": "transparent",
+                          "borderWidth": 0,
+                        },
+                        {
+                          "flex": 0,
+                          "height": 24,
+                          "width": 24,
+                        },
+                      ]
+                    }
+                    vbHeight={24}
+                    vbWidth={24}
+                    width={24}
+                  >
+                    <RNSVGGroup
+                      fill={null}
+                      propList={
+                        [
+                          "fill",
+                        ]
+                      }
+                    >
+                      <RNSVGPath
+                        d="M15.7559 14.2549H14.9659L14.6859 13.9849C15.6659 12.8449 16.2559 11.3649 16.2559 9.75488C16.2559 6.16488 13.3459 3.25488 9.75586 3.25488C6.16586 3.25488 3.25586 6.16488 3.25586 9.75488C3.25586 13.3449 6.16586 16.2549 9.75586 16.2549C11.3659 16.2549 12.8459 15.6649 13.9859 14.6849L14.2559 14.9649V15.7549L19.2559 20.7449L20.7459 19.2549L15.7559 14.2549ZM9.75586 14.2549C7.26586 14.2549 5.25586 12.2449 5.25586 9.75488C5.25586 7.26488 7.26586 5.25488 9.75586 5.25488C12.2459 5.25488 14.2559 7.26488 14.2559 9.75488C14.2559 12.2449 12.2459 14.2549 9.75586 14.2549Z"
+                        fill={
+                          {
+                            "payload": 4285887861,
+                            "type": 0,
+                          }
+                        }
+                        propList={
+                          [
+                            "fill",
+                          ]
+                        }
+                      />
+                    </RNSVGGroup>
+                  </RNSVGSvgView>
+                  <TextInput
+                    autoFocus={false}
+                    onBlur={[Function]}
+                    onChangeText={[Function]}
+                    onFocus={[Function]}
+                    onSubmitEditing={[Function]}
+                    placeholder="Enter process point"
+                    placeholderTextColor="#9E9E9E"
+                    returnKeyType="search"
+                    style={
+                      {
+                        "flex": 1,
+                        "fontSize": 16,
+                        "lineHeight": 24,
+                        "marginLeft": 8,
+                      }
+                    }
+                    value=""
+                  />
+                </View>
+              </View>
+            </View>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "alignItems": "center",
+                        "backgroundColor": "#FFFFFF",
+                        "borderColor": "#E0E0E0",
+                        "borderRadius": 4,
+                        "borderWidth": 1,
+                        "flex": 1,
+                        "flexDirection": "row",
+                        "height": 56,
+                        "paddingHorizontal": 12,
+                      },
+                      false,
+                    ]
+                  }
+                >
+                  <RNSVGSvgView
+                    align="xMidYMid"
+                    bbHeight={24}
+                    bbWidth={24}
+                    fill="none"
+                    focusable={false}
+                    height={24}
+                    meetOrSlice={0}
+                    minX={0}
+                    minY={0}
+                    style={
+                      [
+                        {
+                          "backgroundColor": "transparent",
+                          "borderWidth": 0,
+                        },
+                        {
+                          "flex": 0,
+                          "height": 24,
+                          "width": 24,
+                        },
+                      ]
+                    }
+                    vbHeight={24}
+                    vbWidth={24}
+                    width={24}
+                  >
+                    <RNSVGGroup
+                      fill={null}
+                      propList={
+                        [
+                          "fill",
+                        ]
+                      }
+                    >
+                      <RNSVGPath
+                        d="M15.7559 14.2549H14.9659L14.6859 13.9849C15.6659 12.8449 16.2559 11.3649 16.2559 9.75488C16.2559 6.16488 13.3459 3.25488 9.75586 3.25488C6.16586 3.25488 3.25586 6.16488 3.25586 9.75488C3.25586 13.3449 6.16586 16.2549 9.75586 16.2549C11.3659 16.2549 12.8459 15.6649 13.9859 14.6849L14.2559 14.9649V15.7549L19.2559 20.7449L20.7459 19.2549L15.7559 14.2549ZM9.75586 14.2549C7.26586 14.2549 5.25586 12.2449 5.25586 9.75488C5.25586 7.26488 7.26586 5.25488 9.75586 5.25488C12.2459 5.25488 14.2559 7.26488 14.2559 9.75488C14.2559 12.2449 12.2459 14.2549 9.75586 14.2549Z"
+                        fill={
+                          {
+                            "payload": 4285887861,
+                            "type": 0,
+                          }
+                        }
+                        propList={
+                          [
+                            "fill",
+                          ]
+                        }
+                      />
+                    </RNSVGGroup>
+                  </RNSVGSvgView>
+                  <TextInput
+                    autoFocus={false}
+                    onBlur={[Function]}
+                    onChangeText={[Function]}
+                    onFocus={[Function]}
+                    onSubmitEditing={[Function]}
+                    placeholder="Enter product"
+                    placeholderTextColor="#9E9E9E"
+                    returnKeyType="search"
+                    style={
+                      {
+                        "flex": 1,
+                        "fontSize": 16,
+                        "lineHeight": 24,
+                        "marginLeft": 8,
+                      }
+                    }
+                    value=""
+                  />
+                </View>
+              </View>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "marginTop": 16,
+                  },
+                  {
+                    "color": "#3973AC",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 16,
+                    "fontWeight": "500",
+                    "letterSpacing": 0.15,
+                    "lineHeight": 24,
+                  },
+                  {
+                    "color": "rgba(0, 0, 0, 0.87)",
+                    "fontFamily": "Inter-Regular",
+                    "fontStyle": "normal",
+                    "fontWeight": "500",
+                  },
+                ]
+              }
+            >
+              Recent scans
+            </Text>
+          </View>
+        </View>
+      </View>
+      <RCTScrollView
+        ItemSeparatorComponent={[Function]}
+        ListEmptyComponent={[Function]}
+        contentContainerStyle={
+          {
+            "flexGrow": 1,
+            "paddingBottom": 32,
+            "paddingHorizontal": 16,
+          }
+        }
+        data={
+          [
+            {
+              "index": "123",
+              "processPoint": "Location 1",
+              "product": "Test Product",
+              "quantity": 5,
+              "timestamp": "2024-03-20",
+            },
+          ]
+        }
+        getItem={[Function]}
+        getItemCount={[Function]}
+        keyExtractor={[Function]}
+        keyboardShouldPersistTaps="always"
+        onContentSizeChange={[Function]}
+        onLayout={[Function]}
+        onMomentumScrollBegin={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScroll={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        removeClippedSubviews={false}
+        renderItem={[Function]}
+        scrollEventThrottle={16}
+        stickyHeaderIndices={[]}
+        viewabilityConfigCallbackPairs={[]}
+      >
+        <View>
+          <View
+            onFocusCapture={[Function]}
+            onLayout={[Function]}
+            style={null}
+          >
+            <View
+              style={
+                {
+                  "backgroundColor": "#E3F2FD",
+                  "borderColor": "#3973AC",
+                  "borderRadius": 15,
+                  "borderWidth": 1,
+                  "padding": 16,
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    undefined,
+                    {
+                      "color": "#3973AC",
+                      "fontFamily": "Inter-Regular",
+                      "fontSize": 20,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.15,
+                      "lineHeight": 32,
+                    },
+                    {
+                      "color": "rgba(0, 0, 0, 0.87)",
+                      "fontFamily": "Inter-Regular",
+                      "fontStyle": "normal",
+                      "fontWeight": "500",
+                    },
+                  ]
+                }
+              >
+                Test Product
+              </Text>
+              <View
+                style={
+                  {
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "marginTop": 8,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    [
+                      undefined,
+                      {
+                        "color": "#3973AC",
+                        "fontFamily": "Inter-Regular",
+                        "fontSize": 14,
+                        "fontWeight": "400",
+                        "letterSpacing": 0.17,
+                        "lineHeight": 20.02,
+                      },
+                      {
+                        "color": "rgba(0, 0, 0, 0.87)",
+                        "fontFamily": "Inter-Regular",
+                        "fontStyle": "normal",
+                        "fontWeight": "400",
+                      },
+                    ]
+                  }
+                >
+                  Location: Location 1
+                </Text>
+                <Text
+                  style={
+                    [
+                      undefined,
+                      {
+                        "color": "#3973AC",
+                        "fontFamily": "Inter-Regular",
+                        "fontSize": 14,
+                        "fontWeight": "400",
+                        "letterSpacing": 0.17,
+                        "lineHeight": 20.02,
+                      },
+                      {
+                        "color": "rgba(0, 0, 0, 0.87)",
+                        "fontFamily": "Inter-Regular",
+                        "fontStyle": "normal",
+                        "fontWeight": "400",
+                      },
+                    ]
+                  }
+                >
+                  123
+                </Text>
+              </View>
+              <Text
+                style={
+                  [
+                    undefined,
+                    {
+                      "color": "#3973AC",
+                      "fontFamily": "Inter-Regular",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "letterSpacing": 0.17,
+                      "lineHeight": 20.02,
+                    },
+                    {
+                      "color": "rgba(0, 0, 0, 0.87)",
+                      "fontFamily": "Inter-Regular",
+                      "fontStyle": "normal",
+                      "fontWeight": "400",
+                    },
+                  ]
+                }
+              >
+                Qty: 5
+              </Text>
+            </View>
+          </View>
+        </View>
+      </RCTScrollView>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;
+
+exports[`ScanningTemplate renders empty state when no recent scans 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    collapsable={false}
+    pointerEvents="box-none"
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "backgroundColor": "#FFFFFF",
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "backgroundColor": "#FFFFFF",
+            "marginHorizontal": -32,
+            "zIndex": 1,
+          }
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "backgroundColor": "#FFFFFF",
+                "paddingHorizontal": 32,
+              },
+              false,
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "gap": 16,
+                "padding": 16,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    undefined,
+                    {
+                      "color": "#3973AC",
+                      "fontFamily": "Inter-Regular",
+                      "fontSize": 20,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.15,
+                      "lineHeight": 32,
+                    },
+                    {
+                      "color": "rgba(0, 0, 0, 0.87)",
+                      "fontFamily": "Inter-Regular",
+                      "fontStyle": "normal",
+                      "fontWeight": "500",
+                    },
+                  ]
+                }
+              >
+                Scan or search
+              </Text>
+              <Text
+                style={
+                  [
+                    undefined,
+                    {
+                      "color": "#3973AC",
+                      "fontFamily": "Inter-Regular",
+                      "fontSize": 16,
+                      "fontWeight": "400",
+                      "letterSpacing": 0.15,
+                      "lineHeight": 24,
+                    },
+                    {
+                      "color": "rgba(0, 0, 0, 0.6)",
+                      "fontFamily": "Inter-Regular",
+                      "fontStyle": "normal",
+                      "fontWeight": "400",
+                    },
+                  ]
+                }
+              >
+                User: 
+                Test User
+              </Text>
+            </View>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "alignItems": "center",
+                        "backgroundColor": "#FFFFFF",
+                        "borderColor": "#E0E0E0",
+                        "borderRadius": 4,
+                        "borderWidth": 1,
+                        "flex": 1,
+                        "flexDirection": "row",
+                        "height": 56,
+                        "paddingHorizontal": 12,
+                      },
+                      false,
+                    ]
+                  }
+                >
+                  <RNSVGSvgView
+                    align="xMidYMid"
+                    bbHeight={24}
+                    bbWidth={24}
+                    fill="none"
+                    focusable={false}
+                    height={24}
+                    meetOrSlice={0}
+                    minX={0}
+                    minY={0}
+                    style={
+                      [
+                        {
+                          "backgroundColor": "transparent",
+                          "borderWidth": 0,
+                        },
+                        {
+                          "flex": 0,
+                          "height": 24,
+                          "width": 24,
+                        },
+                      ]
+                    }
+                    vbHeight={24}
+                    vbWidth={24}
+                    width={24}
+                  >
+                    <RNSVGGroup
+                      fill={null}
+                      propList={
+                        [
+                          "fill",
+                        ]
+                      }
+                    >
+                      <RNSVGPath
+                        d="M15.7559 14.2549H14.9659L14.6859 13.9849C15.6659 12.8449 16.2559 11.3649 16.2559 9.75488C16.2559 6.16488 13.3459 3.25488 9.75586 3.25488C6.16586 3.25488 3.25586 6.16488 3.25586 9.75488C3.25586 13.3449 6.16586 16.2549 9.75586 16.2549C11.3659 16.2549 12.8459 15.6649 13.9859 14.6849L14.2559 14.9649V15.7549L19.2559 20.7449L20.7459 19.2549L15.7559 14.2549ZM9.75586 14.2549C7.26586 14.2549 5.25586 12.2449 5.25586 9.75488C5.25586 7.26488 7.26586 5.25488 9.75586 5.25488C12.2459 5.25488 14.2559 7.26488 14.2559 9.75488C14.2559 12.2449 12.2459 14.2549 9.75586 14.2549Z"
+                        fill={
+                          {
+                            "payload": 4285887861,
+                            "type": 0,
+                          }
+                        }
+                        propList={
+                          [
+                            "fill",
+                          ]
+                        }
+                      />
+                    </RNSVGGroup>
+                  </RNSVGSvgView>
+                  <TextInput
+                    autoFocus={false}
+                    onBlur={[Function]}
+                    onChangeText={[Function]}
+                    onFocus={[Function]}
+                    onSubmitEditing={[Function]}
+                    placeholder="Enter process point"
+                    placeholderTextColor="#9E9E9E"
+                    returnKeyType="search"
+                    style={
+                      {
+                        "flex": 1,
+                        "fontSize": 16,
+                        "lineHeight": 24,
+                        "marginLeft": 8,
+                      }
+                    }
+                    value=""
+                  />
+                </View>
+              </View>
+            </View>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "alignItems": "center",
+                        "backgroundColor": "#FFFFFF",
+                        "borderColor": "#E0E0E0",
+                        "borderRadius": 4,
+                        "borderWidth": 1,
+                        "flex": 1,
+                        "flexDirection": "row",
+                        "height": 56,
+                        "paddingHorizontal": 12,
+                      },
+                      false,
+                    ]
+                  }
+                >
+                  <RNSVGSvgView
+                    align="xMidYMid"
+                    bbHeight={24}
+                    bbWidth={24}
+                    fill="none"
+                    focusable={false}
+                    height={24}
+                    meetOrSlice={0}
+                    minX={0}
+                    minY={0}
+                    style={
+                      [
+                        {
+                          "backgroundColor": "transparent",
+                          "borderWidth": 0,
+                        },
+                        {
+                          "flex": 0,
+                          "height": 24,
+                          "width": 24,
+                        },
+                      ]
+                    }
+                    vbHeight={24}
+                    vbWidth={24}
+                    width={24}
+                  >
+                    <RNSVGGroup
+                      fill={null}
+                      propList={
+                        [
+                          "fill",
+                        ]
+                      }
+                    >
+                      <RNSVGPath
+                        d="M15.7559 14.2549H14.9659L14.6859 13.9849C15.6659 12.8449 16.2559 11.3649 16.2559 9.75488C16.2559 6.16488 13.3459 3.25488 9.75586 3.25488C6.16586 3.25488 3.25586 6.16488 3.25586 9.75488C3.25586 13.3449 6.16586 16.2549 9.75586 16.2549C11.3659 16.2549 12.8459 15.6649 13.9859 14.6849L14.2559 14.9649V15.7549L19.2559 20.7449L20.7459 19.2549L15.7559 14.2549ZM9.75586 14.2549C7.26586 14.2549 5.25586 12.2449 5.25586 9.75488C5.25586 7.26488 7.26586 5.25488 9.75586 5.25488C12.2459 5.25488 14.2559 7.26488 14.2559 9.75488C14.2559 12.2449 12.2459 14.2549 9.75586 14.2549Z"
+                        fill={
+                          {
+                            "payload": 4285887861,
+                            "type": 0,
+                          }
+                        }
+                        propList={
+                          [
+                            "fill",
+                          ]
+                        }
+                      />
+                    </RNSVGGroup>
+                  </RNSVGSvgView>
+                  <TextInput
+                    autoFocus={false}
+                    onBlur={[Function]}
+                    onChangeText={[Function]}
+                    onFocus={[Function]}
+                    onSubmitEditing={[Function]}
+                    placeholder="Enter product"
+                    placeholderTextColor="#9E9E9E"
+                    returnKeyType="search"
+                    style={
+                      {
+                        "flex": 1,
+                        "fontSize": 16,
+                        "lineHeight": 24,
+                        "marginLeft": 8,
+                      }
+                    }
+                    value=""
+                  />
+                </View>
+              </View>
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "marginTop": 16,
+                  },
+                  {
+                    "color": "#3973AC",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 16,
+                    "fontWeight": "500",
+                    "letterSpacing": 0.15,
+                    "lineHeight": 24,
+                  },
+                  {
+                    "color": "rgba(0, 0, 0, 0.87)",
+                    "fontFamily": "Inter-Regular",
+                    "fontStyle": "normal",
+                    "fontWeight": "500",
+                  },
+                ]
+              }
+            >
+              Recent scans
+            </Text>
+          </View>
+        </View>
+      </View>
+      <RCTScrollView
+        ItemSeparatorComponent={[Function]}
+        ListEmptyComponent={[Function]}
+        contentContainerStyle={
+          {
+            "flexGrow": 1,
+            "paddingBottom": 32,
+            "paddingHorizontal": 16,
+          }
+        }
+        data={[]}
+        getItem={[Function]}
+        getItemCount={[Function]}
+        keyExtractor={[Function]}
+        keyboardShouldPersistTaps="always"
+        onContentSizeChange={[Function]}
+        onLayout={[Function]}
+        onMomentumScrollBegin={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScroll={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        removeClippedSubviews={false}
+        renderItem={[Function]}
+        scrollEventThrottle={16}
+        stickyHeaderIndices={[]}
+        viewabilityConfigCallbackPairs={[]}
+      >
+        <View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "padding": 16,
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  undefined,
+                  {
+                    "color": "#3973AC",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "letterSpacing": 0.15,
+                    "lineHeight": 24,
+                  },
+                  {
+                    "color": "#9E9E9E",
+                    "fontFamily": "Inter-Regular",
+                    "fontStyle": "normal",
+                    "fontWeight": "400",
+                  },
+                ]
+              }
+            >
+              No recent scans
+            </Text>
+          </View>
+          <View
+            style={
+              [
+                {
+                  "backgroundColor": "rgba(0, 0, 0, 0.12)",
+                  "height": 0.5,
+                },
+                undefined,
+                false,
+                false,
+                {
+                  "backgroundColor": "#E0E0E0",
+                },
+              ]
+            }
+          />
+        </View>
+      </RCTScrollView>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;

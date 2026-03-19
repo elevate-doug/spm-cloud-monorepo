@@ -1,16 +1,15 @@
 import { ReactElement, ReactNode } from 'react';
 import { render, RenderOptions } from '@testing-library/react';
-import { vi } from 'vitest';
 import { ThemeProvider } from '@/components/theme-provider';
 import { ToastProvider } from '@/components/toast';
 
 // Mock next/navigation
-const mockPush = vi.fn();
-const mockReplace = vi.fn();
-const mockRefresh = vi.fn();
-const mockBack = vi.fn();
+const mockPush = jest.fn();
+const mockReplace = jest.fn();
+const mockRefresh = jest.fn();
+const mockBack = jest.fn();
 
-vi.mock('next/navigation', () => ({
+jest.mock('next/navigation', () => ({
   useRouter: () => ({
     push: mockPush,
     replace: mockReplace,

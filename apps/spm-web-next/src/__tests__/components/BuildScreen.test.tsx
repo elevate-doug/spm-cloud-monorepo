@@ -1,15 +1,14 @@
-import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { render, mockPush } from '../test-utils';
 import BuildScreenClient from '@/app/build-screen/[id]/build-screen-client';
 
 // Mock the server actions
-vi.mock('@/lib/actions/builds', () => ({
-  updateIncludedQuantity: vi.fn(),
-  updateMissingQuantity: vi.fn(),
-  pauseBuild: vi.fn(),
-  completeBuild: vi.fn(),
+jest.mock('@/lib/actions/builds', () => ({
+  updateIncludedQuantity: jest.fn(),
+  updateMissingQuantity: jest.fn(),
+  pauseBuild: jest.fn(),
+  completeBuild: jest.fn(),
 }));
 
 import {
@@ -19,10 +18,10 @@ import {
   completeBuild,
 } from '@/lib/actions/builds';
 
-const mockUpdateIncludedQuantity = vi.mocked(updateIncludedQuantity);
-const mockUpdateMissingQuantity = vi.mocked(updateMissingQuantity);
-const mockPauseBuild = vi.mocked(pauseBuild);
-const mockCompleteBuild = vi.mocked(completeBuild);
+const mockUpdateIncludedQuantity = jest.mocked(updateIncludedQuantity);
+const mockUpdateMissingQuantity = jest.mocked(updateMissingQuantity);
+const mockPauseBuild = jest.mocked(pauseBuild);
+const mockCompleteBuild = jest.mocked(completeBuild);
 
 // Test data
 const mockBuildDetails = {
@@ -70,7 +69,7 @@ const mockBuildDetails = {
 
 describe('BuildScreen Component', () => {
   beforeEach(() => {
-    vi.clearAllMocks();
+    jest.clearAllMocks();
   });
 
   describe('Build Details Display', () => {

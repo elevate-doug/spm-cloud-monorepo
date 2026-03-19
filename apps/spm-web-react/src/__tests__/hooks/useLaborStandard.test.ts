@@ -1,37 +1,36 @@
-import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { renderHook, act } from '@testing-library/react';
 import { useLaborStandard } from '../../hooks/useLaborStandard';
 import { laborStandardService } from '../../api/services/laborStandardService';
 
 // Mock the laborStandardService
-vi.mock('../../api/services/laborStandardService', () => ({
+jest.mock('../../api/services/laborStandardService', () => ({
   laborStandardService: {
-    subscribe: vi.fn((callback: () => void) => {
+    subscribe: jest.fn((callback: () => void) => {
       // Store the callback so we can trigger updates
       (globalThis as any).__laborStandardCallback = callback;
       return () => {
         (globalThis as any).__laborStandardCallback = null;
       };
     }),
-    getSnapshot: vi.fn(() => 0),
-    getLaborStandard: vi.fn(() => 0),
-    setLaborStandard: vi.fn((value: number) => {
-      vi.mocked(laborStandardService.getSnapshot).mockReturnValue(value);
-      vi.mocked(laborStandardService.getLaborStandard).mockReturnValue(value);
+    getSnapshot: jest.fn(() => 0),
+    getLaborStandard: jest.fn(() => 0),
+    setLaborStandard: jest.fn((value: number) => {
+      (laborStandardService.getSnapshot as jest.Mock).mockReturnValue(value);
+      (laborStandardService.getLaborStandard as jest.Mock).mockReturnValue(value);
       // Notify subscribers
       if ((globalThis as any).__laborStandardCallback) {
         (globalThis as any).__laborStandardCallback();
       }
     }),
-    startConnection: vi.fn().mockResolvedValue(undefined),
+    startConnection: jest.fn().mockResolvedValue(undefined),
   },
 }));
 
 describe('useLaborStandard Hook', () => {
   beforeEach(() => {
-    vi.clearAllMocks();
-    vi.mocked(laborStandardService.getSnapshot).mockReturnValue(0);
-    vi.mocked(laborStandardService.getLaborStandard).mockReturnValue(0);
+    jest.clearAllMocks();
+    (laborStandardService.getSnapshot as jest.Mock).mockReturnValue(0);
+    (laborStandardService.getLaborStandard as jest.Mock).mockReturnValue(0);
   });
 
   describe('Initial Value', () => {
@@ -41,14 +40,14 @@ describe('useLaborStandard Hook', () => {
     });
 
     it('should return stored value from service', () => {
-      vi.mocked(laborStandardService.getSnapshot).mockReturnValue(42);
+      (laborStandardService.getSnapshot as jest.Mock).mockReturnValue(42);
 
       const { result } = renderHook(() => useLaborStandard());
       expect(result.current).toBe(42);
     });
 
     it('should handle decimal values', () => {
-      vi.mocked(laborStandardService.getSnapshot).mockReturnValue(3.14);
+      (laborStandardService.getSnapshot as jest.Mock).mockReturnValue(3.14);
 
       const { result } = renderHook(() => useLaborStandard());
       expect(result.current).toBe(3.14);
@@ -62,8 +61,8 @@ describe('useLaborStandard Hook', () => {
     });
 
     it('should unsubscribe on unmount', () => {
-      const unsubscribe = vi.fn();
-      vi.mocked(laborStandardService.subscribe).mockReturnValue(unsubscribe);
+      const unsubscribe = jest.fn();
+      (laborStandardService.subscribe as jest.Mock).mockReturnValue(unsubscribe);
 
       const { unmount } = renderHook(() => useLaborStandard());
       unmount();
@@ -111,7 +110,7 @@ describe('useLaborStandard Hook', () => {
 
   describe('Multiple Hooks', () => {
     it('should work with multiple hook instances', () => {
-      vi.mocked(laborStandardService.getSnapshot).mockReturnValue(50);
+      (laborStandardService.getSnapshot as jest.Mock).mockReturnValue(50);
 
       const { result: result1 } = renderHook(() => useLaborStandard());
       const { result: result2 } = renderHook(() => useLaborStandard());

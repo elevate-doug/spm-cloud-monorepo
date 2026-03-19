@@ -6,9 +6,9 @@
 import axios from 'axios';
 import { userService } from './services/userService';
 
-// In development, requests go through Vite's proxy (see vite.config.ts)
+// In development, requests go through webpack-dev-server's proxy (see webpack.config.ts)
 const apiClient = axios.create({
-  baseURL: import.meta.env.PROD ? import.meta.env.VITE_API_BASE_URL : '',
+  baseURL: process.env.NODE_ENV === 'production' ? process.env.API_BASE_URL : '',
   timeout: 30000,
   headers: {
     'Content-Type': 'application/json',
