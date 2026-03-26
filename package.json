@@ -9,7 +9,8 @@
     "test": "nx run-many -t test",
     "react": "nx dev spm-web-react",
     "next": "nx dev spm-web-next",
-    "storybook": "nx dev storybook-web"
+    "storybook": "nx dev storybook-web",
+    "docs": "nx dev docs"
   },
   "devDependencies": {
     "nx": "^22.5.4"

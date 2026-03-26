@@ -21,7 +21,12 @@
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+
+    /* react-native-web */
+    "paths": {
+      "react-native": ["./node_modules/react-native-web/dist/index"]
+    }
   },
   "include": ["src"]
 }

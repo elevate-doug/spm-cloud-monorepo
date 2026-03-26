@@ -1,0 +1,91 @@
+# Completed Screens
+
+The following screens are fully implemented with working functionality in the React SPA (`spm-web-react`).
+
+---
+
+## Login Screen
+
+**Route:** `/admin/login`
+
+The login screen handles user authentication against the SPM Cloud backend.
+
+### Functionality
+
+- **Tenant Selection** — Dropdown populated from the API lets users select their organization/tenant before logging in.
+- **Username & Password Authentication** — Authenticates via `userService.login()` and stores a JWT token in localStorage.
+- **Database Connection Monitoring** — A real-time status indicator shows whether the backend database is reachable. Login is blocked when the database is disconnected, and a dialog is displayed with a "Waiting for connection..." / "Connection restored" message.
+- **Error Handling** — Password field is cleared on failed login attempts. Toast notifications surface errors to the user.
+- **Post-Login Redirect** — On successful authentication the user is navigated to the Assembly screen.
+
+---
+
+## Assembly Screen
+
+**Route:** `/admin/assembly`
+
+The main dashboard and operational hub of the application. This is where technicians manage instrument set builds.
+
+### Functionality
+
+- **Barcode Input** — A text input that supports both manual entry and physical barcode scanner input. The field auto-focuses on page load and on window focus for fast scanning workflows. Barcodes are validated for a minimum length of 4 characters and a green highlight animation confirms a successful scan.
+- **Build Lookup & Creation** — When a barcode is scanned:
+  - The system checks for existing builds with that barcode.
+  - If no build exists (or the latest build is already completed), a new build is created automatically.
+  - The user is then navigated to the Build Screen for that build.
+- **Incomplete Builds Table** — A data table (TanStack React Table) showing all in-progress builds (status &ne; completed). Columns include Barcode, Description, When Scanned, Location, Scanned By, and Process Action. Rows are clickable and navigate to the Build Screen.
+- **Recent Builds Table** — A second data table showing completed builds. Same column layout as the incomplete builds table.
+- **Table Features** — Both tables support sortable columns with ascending/descending indicators, and a search filter for paused items.
+- **Process Action Labels** — Builds display a human-readable stage label: Assembling, Assembled, LoadedInSterilizer, Sterilizing, Sterilized, InStorage, InCaseCart, InUse, or Received.
+
+---
+
+## Build Screen
+
+**Route:** `/admin/build-screen/:id`
+
+The detailed instrument tracking screen where technicians assemble an instrument set by scanning or manually adjusting item quantities.
+
+### Functionality
+
+- **Dynamic Header** — Displays the instrument set name and barcode for the current build.
+- **Barcode Scanner Input** — Scan instrument barcodes to add them to the build. Matches scanned barcodes against the instruments in the set, auto-increments the "Included" count, and provides visual feedback (green highlight on success, error toast on unrecognized barcode).
+- **Instrument Table** — A grouped table organized by instrument category (e.g., "Instruments", "Tools"). Columns include Manufacturer, Product Number, Instrument/Comment, Required, Included, and Missing.
+- **Quantity Controls** — Increment/decrement buttons on hover allow manual adjustment of included and missing quantities. Validations prevent going below 0 or above the required quantity.
+- **Color-Coded Status Badges**:
+  - **Green** — Item is complete (included count matches required).
+  - **Amber** — Partially complete.
+  - **Red** — Items are missing.
+- **Last Scanned Highlight** — The most recently scanned item row is highlighted in green for quick visual confirmation.
+- **Build Lifecycle Actions**:
+  - **Pause** — Pause the current build (red button). Paused builds appear in the Incomplete Builds table on the Assembly screen.
+  - **Complete** — Mark the build as finished (green button). Disabled until all required items are accounted for (included + missing = required for every item).
+  - **Exit** — Leave the build screen after completion.
+- **Auto-Resume** — If a build was previously paused, it is automatically resumed when the user navigates back to it.
+- **Saving Indicator** — A spinner is displayed while mutations are in flight.
+
+---
+
+## Profile Screen
+
+**Route:** `/admin/profile`
+
+A read-only screen displaying the currently logged-in user's information.
+
+### Functionality
+
+- **User Avatar** — Displays the user's initials in a branded circle.
+- **Account Information Table** — Shows the following fields:
+  - Email
+  - Department (location)
+  - Organization (tenant)
+  - Role (assignment)
+  - Shift
+  - Accumulated Labor Standard (calculated via `useLaborStandard()` hook)
+- **Edit Profile Button** — Present in the UI but not yet wired to backend functionality.
+
+---
+
+## Route Protection
+
+All admin routes (`/admin/*`) are wrapped in a `ProtectedRoute` component that checks `userService.isLoggedIn()` and redirects unauthenticated users to the Login screen.

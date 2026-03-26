@@ -1,18 +1,17 @@
+import { useProfile } from "../../../hooks/useProfile";
+import ProfileTemplate from "../../../components/templates/ProfileTemplate";
 import type { ComponentProperties } from "../../../types/componentProperties";
-import Banner from "./components/Banner";
 
 const ProfileOverview: React.FC<ComponentProperties> = (props: ComponentProperties) => {
-  return (
-    <div className="flex w-full flex-col gap-4">
-      {/* Header */}
+    const { currentUser, laborStandard, handleEdit } = useProfile(props.setPageTitle);
 
-      <div className="flex justify-center">
-        <div className="w-full max-w-md">
-            <Banner {...props} />
-        </div>
-      </div>
-    </div>
-  );
+    return (
+        <ProfileTemplate
+            currentUser={currentUser}
+            laborStandard={laborStandard}
+            onEdit={handleEdit}
+        />
+    );
 };
 
 export default ProfileOverview;

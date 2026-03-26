@@ -53,6 +53,7 @@ const config: StorybookConfig = {
         path.join(monorepoRoot, 'packages'),
         path.join(monorepoRoot, 'apps/storybook-web/src'),
         path.join(monorepoRoot, 'apps/storybook-web/.storybook'),
+        path.join(monorepoRoot, 'apps/spm-web-react/src'),
       ],
       use: {
         loader: 'babel-loader',
